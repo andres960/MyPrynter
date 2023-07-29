@@ -1,0 +1,74 @@
+/* Estilos generales de la tabla */
+#tableAdministradores {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el encabezado de la tabla */
+  #tableAdministradores thead {
+    background-color: #e9e9e9;
+  }
+  
+  #tableAdministradores th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Estilos para las filas de la tabla */
+  #tableAdministradores tbody tr {
+    background-color: #ffffff;
+  }
+  
+  #tableAdministradores tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #tableAdministradores tbody td {
+    padding: 10px;
+  }
+  
+  /* Estilos para el hover de las filas */
+  #tableAdministradores tbody tr:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la paginación */
+  .dataTables_paginate {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .dataTables_paginate .pagination {
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .dataTables_paginate .pagination .page-item {
+    display: inline;
+    margin: 2px;
+  }
+  
+  .dataTables_paginate .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .dataTables_paginate .pagination .page-item.disabled .page-link {
+    background-color: #f2f2f2;
+    color: #aaa;
+    border-color: #f2f2f2;
+    cursor: not-allowed;
+  }
+
+  
+.table-container{
+    background-color: #c3c3c5;
+
+}

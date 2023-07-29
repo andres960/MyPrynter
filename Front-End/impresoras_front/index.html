@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página MyPrynter</title>
+    <link rel="shortcut icon" href="img/alexcgdesign.png" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Tienda</a>
+            <a href="#">Reparacion y mantenimiento</a>
+            <a href="#">Contacto</a>
+            <a href="./admin_panel/login.html">Admin</a>
+            <a href="./cliente_panel/login.html">Login Cliente</a>
+
+        </nav>
+        <section class="textos-header">
+            <h1>My Prynter</h1>
+            <h2>Compra las ultimas referencias del mercado, repara y da mantenimiento a tus impresoras de manera rapida</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Sobre Nosotros</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="./imagen.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Los mejores productos</h3>
+                    <p>My Prynter ofrece servicios de venta, reparación y mantenimiento de impresoras. Nuestro equipo de expertos de la empresa se dedica a brindar soluciones integrales en impresión, y ofrece un amplio catálogo de impresoras de las marcas más reconocidas en el mercado</p>
+                    <h3><span>2</span>Reparacion y mantenimiento confiable</h3>
+                    <p>Servicios de mantenimiento preventivo y reparación de fallas. La empresa se compromete a ofrecer un servicio de calidad y garantizar la satisfacción de sus clientes.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Tienda</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="./epson.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>Epson EcoTank L3250</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./dell.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>Dell 5330dn Mono Láser</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./cannon.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>Canon Pixma G3110</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./hp.avif" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>HP LaserJet Pro M404dn</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./hp2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>HP Smart Tank 580</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./hp415.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>HP Deskjet Ink 2775</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./cannon2.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>Canon Maxify GX6010</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./cannon3.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="./icono.png" alt="">
+                            <p>Canon Selphy CP1300</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Reparacion y mantenimiento</h2>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Nombre</label>
+                        <input type="text" id="nombresInput" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Apellido</label>
+                        <input type="text" id="apellidosInput" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Correo</label>
+                        <input class="form-control" id="emailInput" type="email" id="inputEmail4" placeholder="1234@gmail.com">
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <label for="inputAddress2" class="form-label">Direccion</label>
+                            <input type="text" id="direccionInput" class="form-control" id="inputAddress2">
+                        </div>
+                        <div class="row">
+               <label for="inputZip" class="form-label">Celular</label>
+                        <input type="tel" class="form-control" id="telefonoInput">
+                        </div>
+
+                        
+                    </div>
+                
+                    <div class="col-md-2">
+                      
+                    </div>
+                    
+                    <div class="col-12">
+                        <button type="button" id="btnGuardar" class="btn btn-warning">Registrarme</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>3115065500</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>andres960.ap@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicacion</h4>
+                <p>cra35b #50-15este</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; MyPrynter | Andres Prada</h2>
+    </footer>
+</body>
+<script src="scripts/index.js"></script>
+
+</html>
